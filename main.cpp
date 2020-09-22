@@ -26,11 +26,7 @@ int main() {
 
     std::cout << std::setprecision(0) << std::showpos << " 2. "  << 5*a+ sqrt(3*a-2) << std::endl;  // 2 task
 
-    if (y == 1) {  // 3 task
-        std::cout << " 3. True" << std::endl;
-    } else {
-        std::cout << " 3. False" << std::endl;
-    }
+    std::cout << std::boolalpha << y << std::endl;
 
     if (b<=7) {  // 4 task
         std::cout << std::noshowpos << " 4. " << j << " ";
